@@ -27,11 +27,11 @@ def checkCol(puzzle, col, num):
 			
 	return False
 
-#checks if a number exists in a certain triplet
+#checks if a number exists within its corresponding triplet certain triplet
 def checkTriplet(puzzle, row, col, num):
-	#row/col start always return the top left of the triplet
-	rowStart = (int(row/3))*3
-	colStart = (int(col/3))*3
+	#row/colStart always return the top left of the triplet
+	rowStart = (row//3)*3
+	colStart = (col//3)*3
 
 	for i in range(3):
 		for j in range(3):
@@ -81,12 +81,12 @@ def solve(puzzle):
 
 def main():
 	print("Starting board:")
-	printPuzzle(puzzle)
+	printPuzzle(hardTest)
 	print("\n")
 
-	if(solve(puzzle)):
+	if(solve(hardTest)):
 		print("Solved board:")
-		printPuzzle(puzzle)
+		printPuzzle(hardTest)
 	else:
 		print("No solution exists")
 	
