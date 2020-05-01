@@ -27,7 +27,7 @@ def checkCol(puzzle, col, num):
 			
 	return False
 
-#checks if a number exists within its corresponding triplet certain triplet
+#checks if a number exists within its corresponding triplet
 def checkTriplet(puzzle, row, col, num):
 	#row/colStart always return the top left of the triplet
 	rowStart = (row//3)*3
