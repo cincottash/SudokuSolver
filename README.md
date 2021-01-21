@@ -4,7 +4,7 @@ Solves sudoku puzzles via backtracking algorithim
 
 ## Features
 
-* Can solve any sudoku puzzle via backtracking <br/>
+* Can solve any? sudoku puzzle via backtracking <br/>
 
 ## Prerequisites
 
