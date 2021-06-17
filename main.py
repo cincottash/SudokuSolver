@@ -88,7 +88,7 @@ def main():
 		print("Solved board:")
 		printPuzzle(hardTest)
 	else:
-		print("No solution exists")
+		print("No solution found")
 	
 
 
